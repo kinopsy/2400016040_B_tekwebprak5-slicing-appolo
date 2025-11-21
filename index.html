@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOLLO - Learn, Build, & Showcase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apollo-dark': '#141E30', 
+                        'apollo-primary': '#2563EB',
+                        'apollo-light-bg': '#EEF2FF', 
+                        'apollo-accent': '#FF5733', 
+                        'feature-bg': '#F5F3FF', 
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+    <header class="p-4 md:p-6 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-xl font-extrabold text-apollo-primary flex items-center">
+                <svg class="w-6 h-6 mr-1 text-apollo-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                APOLLO
+            </div>
+            <nav class="hidden md:flex space-x-6 items-center">
+                <a href="#" class="text-sm font-medium text-gray-700 hover:text-apollo-primary">Home</a>
+                <a href="#" class="text-sm font-medium text-gray-700 hover:text-apollo-primary">Features</a>
+                <a href="#" class="text-sm font-medium text-gray-700 hover:text-apollo-primary">FAQ</a>
+                <button class="px-4 py-2 bg-apollo-primary text-white text-sm font-semibold rounded-lg hover:bg-blue-600 transition">Sign Up</button>
+            </nav>
+            <button type="button" class="md:hidden p-2" title="Open menu" aria-label="Open menu">
+                <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="max-w-7xl mx-auto pt-16 pb-24 px-4 md:px-6 md:flex md:items-center md:justify-between">
+            
+            <div class="md:w-1/2 md:pr-12">
+                <h1 class="text-4xl sm:text-5xl md:text-5xl font-extrabold leading-tight text-apollo-dark">
+                    LEARN, BUILD, & SHOWCASE <br>
+                    <span class="text-apollo-primary">ALL IN ONE PLATFORM</span>
+                </h1>
+                <p class="mt-4 text-gray-600 leading-relaxed text-sm md:text-base max-w-lg">
+                    APOLLO Is the Advanced Programming and Online Learning Laboratory that combines the Project Management, and Portfolio in a seamless experience. Gain new skills, collaborate on real projects, and showcase your achievements—all within one integrated platform.
+                </p>
+                <div class="mt-8 space-y-3 sm:space-y-0 sm:space-x-4 flex flex-col sm:flex-row">
+                    <button class="px-6 py-3 bg-apollo-primary text-white font-semibold rounded-lg hover:bg-blue-600 transition text-sm">
+                        Get Started For Free
+                    </button>
+                    <button class="px-6 py-3 bg-white border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-100 transition text-sm">
+                        Explore Features
+                    </button>
+                </div>
+            </div>
+
+            <div class="mt-12 md:mt-0 md:w-1/2 flex justify-center">
+                <div class="w-full max-w-md h-auto flex items-center justify-center">
+                    <img src="https://www.historylink.org/Content/Media/Photos/Large/apollo-11-liftoff-july-16-1969.jpg" alt="APOLLO Rocket Launch Illustration" class="w-full h-auto object-contain">
+                </div>
+            </div>  
+        </section>
+        
+        <section class="bg-feature-bg py-24 px-4 md:px-6">
+            <div class="max-w-7xl mx-auto text-center">
+                <h2 class="text-xl md:text-2xl font-extrabold text-apollo-dark">What You'll Get With Apollo</h2>
+                <p class="mt-2 text-gray-600 text-sm">A powerful ecosystem designed to help you learn faster, build smarter, and showcase better.</p>
+                
+                <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-8">
+                    
+                    <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-100 flex flex-col items-center text-center">
+                        <div class="p-4 bg-blue-100 rounded-xl text-apollo-primary mb-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.468 9.24 5.234 7.72 5.563M12 6.253A8.847 8.847 0 0012 18m-7.618-11.753a9.004 9.004 0 01-1.371 4.708l-.134.238m7.618-11.753c1.233-.092 2.457.172 3.593.81M3.77 12.015h.001v.001h-.001zm0 0c-.394 0-.714.32-.714.714v.023c0 .395.32.714.714.714h.001c.395 0 .714-.32.714-.714v-.023c0-.394-.32-.714-.714-.714z"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2 text-apollo-dark">Learning Management System</h3>
+                        <p class="text-gray-600 text-sm">Turn your knowledge into real experience. Collaborate with classmates, tackle real-world challenges, and gain verifiable certifications.</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-100 flex flex-col items-center text-center">
+                        <div class="p-4 bg-green-100 rounded-xl text-green-600 mb-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2 text-apollo-dark">Project Management</h3>
+                        <p class="text-gray-600 text-sm">Turn your knowledge into real experience. Collaborate with classmates, tackle real-world challenges, and gain verifiable certifications.</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-100 flex flex-col items-center text-center">
+                        <div class="p-4 bg-red-100 rounded-xl text-apollo-accent mb-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold mb-2 text-apollo-dark">Portfolio Management</h3>
+                        <p class="text-gray-600 text-sm">Turn your knowledge into real experience. Collaborate with classmates, tackle real-world challenges, and gain verifiable certifications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto py-20 px-4 md:px-6">
+            <div class="bg-apollo-light-bg p-12 rounded-2xl text-center">
+                
+                <div class="flex justify-center mb-4">
+                    <div class="p-4 bg-white rounded-full shadow-lg">
+                        <svg class="w-8 h-8 text-apollo-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                    </div>
+                </div>
+
+                <h2 class="text-3xl font-extrabold text-apollo-dark">Ready to Launch Your Journey?</h2>
+                <p class="mt-3 text-gray-600 text-md max-w-xl mx-auto">
+                    Join Apollo today and experience the all-in-one ecosystem to learn programming, build real projects, and showcase your portfolio.
+                </p>
+                
+                <div class="mt-8">
+                    <button class="px-8 py-3 bg-apollo-primary text-white font-bold rounded-lg hover:bg-blue-600 transition text-md">
+                        Get Started Free
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apollo-dark text-gray-300 pt-16 pb-10 px-4 md:px-6">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="md:grid md:grid-cols-5 md:gap-12">
+                
+                <div class="col-span-2 mb-10 md:mb-0">
+                    <div class="text-xl font-extrabold text-white flex items-center">
+                        <svg class="w-6 h-6 mr-1 text-apollo-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        APOLLO
+                    </div>
+                    <p class="mt-4 text-sm text-gray-400 max-w-xs">
+                        Advanced Programming and Online Learning Laboratory
+                    </p>
+                    <div class="mt-6 text-sm space-y-2">
+                        <p class="flex items-center"><span class="mr-2 text-apollo-primary">📞</span> 082254292566</p>
+                        <p class="flex items-center"><span class="mr-2 text-apollo-primary">✉️</span> alfiardiyuangga@gmail.com</p>
+                        <p class="flex items-center"><span class="mr-2 text-apollo-primary">📍</span> Kampus 4, Ahmad Dahlan</p>
+                    </div>
+                </div>
+
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-md font-bold text-white mb-4">Quick Links</h3>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-white transition">Home</a></li>
+                        <li><a href="#" class="hover:text-white transition">Features</a></li>
+                        <li><a href="#" class="hover:text-white transition">How it works</a></li>
+                    </ul>
+                </div>
+
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-md font-bold text-white mb-4">Resources</h3>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition">Terms of Use</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-md font-bold text-white mb-4">Products</h3>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        </ul>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-700 text-center text-sm text-gray-500">
+                <p>APOLLO © All right reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
